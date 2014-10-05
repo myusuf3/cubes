@@ -52,3 +52,6 @@ docs/_build/
 .DS_Store
 # PyBuilder
 target/
+
+# Databases
+*.sqlite3
