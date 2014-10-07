@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito:300,700);
+html, body {
+  height: 100%;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  background-color: #7544c0;
+  color: #fff; }
+
+.center {
+  text-align: center; }
+
+#hero {
+  height: 100%;
+  min-height: 700px; }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #hero {
+      min-height: 900px; } }
+  @media only screen and (max-width: 767px) {
+    #hero {
+      min-height: 900px; } }
+  #hero #info {
+    height: 100%;
+    margin-top: 175px;
+    text-align: center; }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+      #hero #info {
+        margin-top: 50px; } }
+    @media only screen and (max-width: 767px) {
+      #hero #info {
+        margin-top: 50px; } }
+    #hero #info h1 {
+      margin-bottom: 40px; }
+  #hero #links {
+    text-align: center;
+    margin-top: 40px; }
+    #hero #links .twitter {
+      max-height: 35px;
+      margin-left: 20px; }
+  #hero #iphone-images {
+    height: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    min-height: 600px;
+    margin-top: 100px; }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+      #hero #iphone-images {
+        min-height: 425px; } }
+    @media only screen and (max-width: 767px) {
+      #hero #iphone-images {
+        min-height: 425px; } }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+      #hero #iphone-images {
+        margin-top: 50px; } }
+    @media only screen and (max-width: 767px) {
+      #hero #iphone-images {
+        margin-top: 50px; } }
+    #hero #iphone-images .iphone {
+      display: inline-block;
+      height: 500px; }
+      @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        #hero #iphone-images .iphone {
+          height: 400px; } }
+      @media only screen and (max-width: 767px) {
+        #hero #iphone-images .iphone {
+          height: 400px; } }
+
+#footer {
+  border-top: 1px solid #fff;
+  padding: 20px 0; }
+
+/*# sourceMappingURL=styles.css.map */
