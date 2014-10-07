@@ -49,6 +49,14 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, 'cubes/templates'),
+)
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'cubes/staticfiles'),
+)
+
 ROOT_URLCONF = 'cubes.urls'
 
 WSGI_APPLICATION = 'cubes.wsgi.application'
